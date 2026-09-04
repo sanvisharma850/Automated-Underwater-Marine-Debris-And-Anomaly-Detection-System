@@ -26,7 +26,7 @@ This project automates that interpretive process through computer vision, with t
 
 
 <p align="center">
-  <img src="asset/WhatsApp Image 2026-09-05 at 12.31.21 AMf.jpeg" width="700"/>
+  <img src="asset/WhatsApp Image 2026-09-05 at 12.31.21 AM.jpeg" width="700"/>
 </p>
 
 
