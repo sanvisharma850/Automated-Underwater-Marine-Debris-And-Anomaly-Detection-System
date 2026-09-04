@@ -1,15 +1,5 @@
 # AI-Powered Automated Underwater Marine Debris and Anomaly Detection System Using Side-Scan Sonar Imagery
 
-**Smart India Hackathon 2026 — Software Edition**
-
-| Field | Detail |
-|---|---|
-| Problem Statement ID | 26057 |
-| Problem Statement Title | AI-Powered Automated Underwater Marine Debris and Anomaly Detection System using Side-Scan Sonar Imagery |
-| Theme | Disaster Management |
-| PS Category | Software |
-| Team ID | SIH26057 |
-| Team Name | Anomalies |
 
 [![React](https://img.shields.io/badge/React-19-blue.svg)](https://react.dev/)
 [![Vite](https://img.shields.io/badge/Vite-8-purple.svg)](https://vitejs.dev/)
