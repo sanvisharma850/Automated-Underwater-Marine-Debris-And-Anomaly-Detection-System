@@ -24,6 +24,12 @@ Owing to the vastness, depth, and optical opacity of the ocean environment, mari
 
 This project automates that interpretive process through computer vision, with the objective of reliably distinguishing artificial anomalies from natural seafloor topology, and of doing so under computational constraints compatible with onboard AUV or marine-drone deployment — that is, without a mandatory dependency on high-bandwidth cloud infrastructure.
 
+
+<p align="center">
+  <img src="asset/WhatsApp Image 2026-09-05 at 12.31.21 AMf.jpeg" width="700"/>
+</p>
+
+
 ---
 
 ## 2. Objectives
@@ -35,9 +41,11 @@ The system was designed to satisfy four functional requirements central to the p
 3. **Anomaly Reporting and Geotagging** — A metadata-aware reporting engine that converts pixel-space detections into structured, geolocated records (JSON/CSV) suitable for downstream GIS consumption.
 4. **Interactive Dashboard** — A visual interface permitting log ingestion, real-time overlay of detections on a geospatial map, and export of mission reports.
 
+
 ---
 
 ## 3. Proposed Solution
+
 
 The proposed solution is an end-to-end AUV/drone-mounted perception pipeline that converts raw side-scan sonar waterfall imagery into actionable, geotagged detections, engineered to execute on the vehicle itself rather than requiring a round-trip to cloud infrastructure.
 
@@ -67,7 +75,11 @@ At the class level, the detector distinguishes the following anomaly categories:
 
 ## 4. System Architecture
 
-![System Architecture](frontend/public/architecture_diagram.jpg)
+
+<p align="center">
+  <img src="asset/WhatsApp Image 2026-09-04 at 11.32.45 PM.jpeg" width="700"/>
+</p>
+
 
 The system is composed of two cooperating tiers:
 
@@ -122,6 +134,13 @@ The system is composed of two cooperating tiers:
 | Weights Size | ≈ 44.8 MB |
 | Reported Accuracy | 94.2% (n = 190 test samples) |
 | Note | Not yet benchmarked on target embedded hardware |
+
+
+
+<p align="center">
+  <img src="asset/WhatsApp Image 2026-09-04 at 10.54.05 PM (1).jpeg" width="700"/>
+</p>
+
 
 ### 5.3 Algorithms Used
 
@@ -193,6 +212,11 @@ Consistent with the project's emphasis on transparent reporting, the following l
 - Broaden the shipwreck training set across additional scenes to reduce estimator variance.
 - Profile the Marine Pulse classifier on target embedded hardware, with quantization or distillation applied if onboard (rather than post-mission) execution is required.
 - Conduct full hardware-in-the-loop benchmarking (e.g., Jetson-class device with TensorRT INT8 quantization) for both the detection and classification stages prior to field deployment.
+
+<p align="center">
+  <img src="asset/WhatsApp Image 2026-09-04 at 10.54.05 PM.jpeg" width="700"/>
+</p>
+
 
 ---
 
